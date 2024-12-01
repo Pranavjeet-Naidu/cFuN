@@ -1,4 +1,4 @@
-# include "toralize.h"
+# include "SockTor.h"
 
 
 
@@ -8,7 +8,7 @@ int main(int argc,char *argv[])
     char*host;
     int port;
 
-    int (argc < 3)
+    if (argc < 3)
     {
         //fprintf is like printf but takes an additional argument : where to send the output  
         fprintf(stderr,"Usage : %s <host> <port>\n",argv[0]);
