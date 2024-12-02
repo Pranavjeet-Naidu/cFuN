@@ -1,4 +1,3 @@
-I'll format the content for a proper README.md file with appropriate Markdown formatting:
 
 # SockTor: A SOCKS Proxy Wrapper for Sockets
 
